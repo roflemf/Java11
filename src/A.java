@@ -1,4 +1,5 @@
 
+
 public class A {//외부 클래스 A
 	
 	A() {System.out.println("A생성자 호출");}
@@ -9,6 +10,8 @@ public class A {//외부 클래스 A
 		 * 정적변수와 정적메서드는 올 수 없다.
 		 * 
 		 */
+		
+		
 		B(){System.out.println("B생성자 호출");}
 		int field01; //인스턴스변수
 		//static int field02; //정적변수는 올 수 없다.
@@ -16,6 +19,7 @@ public class A {//외부 클래스 A
 		//static void method02() {} //정적 메서드 올 수 없다.
 	}//B class
 	
+
 	/* 정적 멤버 내부 클래스 */
 	static class C{
 		/* 정적 멤버 내부클래스에는 인스턴스 변수, 인스턴스 메서드, 정적변수, 정적메서드 모두 올 수 있다.
